@@ -1,5 +1,5 @@
 import { expect, test, describe } from "vitest";
-import { smash, smashRefacto } from "./SmashSentence";
+import { smash, smashRefacto } from "../../src/smashSentence/SmashSentence";
 
 describe("smash", () => {
   test("should return empty string for empty array.", () => {

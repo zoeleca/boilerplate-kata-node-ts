@@ -1,5 +1,5 @@
 import { expect, test, describe } from "vitest";
-import { powersOfTwo } from "./powerof2";
+import { powersOfTwo } from "../../src/powerof2/powerof2";
 
 describe("powerOftwo", () => {
   test("fixed test", () => {

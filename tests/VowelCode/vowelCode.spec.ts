@@ -1,5 +1,8 @@
 import { beforeEach, describe, expect, it } from "vitest";
-import { encodingSentences, decodingSentences } from "./encodingVowel";
+import {
+  encodingSentences,
+  decodingSentences,
+} from "../../src/VowelCode/encodingVowel";
 
 describe("EncodingVowel", () => {
   describe("No Vowel Sentence", () => {

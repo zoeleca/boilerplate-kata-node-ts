@@ -1,5 +1,5 @@
 import { expect, test, describe } from "vitest";
-import { xo } from "./xo";
+import { xo } from "../../src/xo/xo";
 
 describe("Xo", () => {
   test("return true if input is 'xo'", () => {

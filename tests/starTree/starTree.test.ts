@@ -1,5 +1,5 @@
 import { expect, test, describe } from "vitest";
-import { starTree } from "./starTree";
+import { starTree } from "../../src/starTree/starTree";
 
 describe("starTree", () => {
   test("['*'] if n = 1", () => {

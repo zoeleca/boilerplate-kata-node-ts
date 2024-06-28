@@ -1,6 +1,5 @@
 import { expect, test, describe } from "vitest";
-import { narcissistic } from "./narcissitic";
-
+import { narcissistic } from "../../src/narcissistic/narcissitic";
 describe("Narcissistic", () => {
   test("153 to be a narcissistic number", () => {
     expect(narcissistic(153)).toBe(true);
