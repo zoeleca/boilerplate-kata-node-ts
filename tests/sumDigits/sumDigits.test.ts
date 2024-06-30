@@ -8,13 +8,13 @@ import { sumDigits } from "../../src/sumDigits/sumDigits";
  */
 
 describe("sumDigits", () => {
-  it.only("10 in input should return 1", () => {
+  it("10 in input should return 1", () => {
     expect(sumDigits(10)).toStrictEqual(1);
   });
-  it.only("99 in input should return 18", () => {
+  it("99 in input should return 18", () => {
     expect(sumDigits(99)).toStrictEqual(18);
   });
-  it.only("-32 in input should return 5", () => {
+  it("-32 in input should return 5", () => {
     expect(sumDigits(-32)).toStrictEqual(5);
   });
 });
